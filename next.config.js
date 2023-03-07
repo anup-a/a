@@ -1,8 +1,8 @@
-const withPreact = require('next-plugin-preact')
+const withImages = require("next-images");
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   /* regular next.js config options here */
-}
+};
 
-module.exports = withPreact(nextConfig)
+module.exports = withImages(nextConfig);
