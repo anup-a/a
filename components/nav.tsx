@@ -16,7 +16,7 @@ const Nav = (props: Props) => {
       </a>
       <div className="flex gap-4 text-sm font-normal text-black md:gap-6 md:text-md">
         <a href="https://github.com/anup-a">Projects</a>
-        <a href="#" className="cursor-not-allowed">
+        <a href="#" className="hidden cursor-not-allowed sm:block">
           Creatives
         </a>
         <a href="#" className="cursor-not-allowed">

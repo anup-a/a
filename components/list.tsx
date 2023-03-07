@@ -18,7 +18,7 @@ const List = (props: Props, ref: any) => {
       </div>
       <div className="grid grid-cols-1 mt-4 sm:grid-cols-2 md:grid-cols-3 gap-x-0 gap-y-8">
         {props.data.map((p, i) => (
-          <ListItem {...p} aosDelay={(i + 1) * 100} />
+          <ListItem {...p} aosDelay={(i + 1) * 100} key={p.link} />
         ))}
       </div>
     </section>
