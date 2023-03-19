@@ -5,3 +5,18 @@
 html {
   scroll-behavior: smooth;
 }
+
+@keyframes rotater {
+  0% {
+    transform: translateY(75%);
+  }
+  33% {
+    transform: translateY(50%);
+  }
+  66% {
+    transform: translateY(25%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

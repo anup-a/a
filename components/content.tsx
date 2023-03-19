@@ -27,12 +27,26 @@ const Content = (props: Props) => {
         />
       </div>
       <h1
-        className="mt-12 text-xl font-bold text-slate-600"
+        className="flex mt-12 text-xl text-slate-600"
         data-aos="fade-up"
         data-aos-delay="200"
         data-aos-duration="1000"
       >
-        I'm Anup &#8212; a Software Engineer from India
+        <div className="mr-2">I'm Anup &#8212; a </div>
+        <div className="relative inline-flex mr-2 overflow-hidden font-bold">
+          <span className="w-full opacity-0 select-none">
+            Full Stack web developer
+          </span>
+          <ul
+            className="absolute bottom-0 left-0 "
+            style={{ animation: "rotater 6s infinite", animationDelay: "1.5s" }}
+          >
+            <li>Software Engineer</li>
+            <li>Full Stack web developer</li>
+            <li>Open Source Developer</li>
+            <li>Software Engineer</li>
+          </ul>
+        </div>
       </h1>
       <h3
         className="mt-4 text-lg font-normal text-slate-500"

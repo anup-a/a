@@ -21,10 +21,10 @@ export default function IndexPage() {
       <Background />
       <section
         className="relative flex flex-col items-center w-4/5 mx-auto md:p-0 md:w-3/4"
-        style={{ gap: "90px" }}
+        style={{ gap: "80px" }}
       >
         <div className="flex flex-col w-full md:w-3/4">
-          <Nav projectsRef={projectsRef} />
+          <Nav projectsRef={projectsRef} enableBackground={false} />
           <span
             className="w-full my-6 bg-slate-500"
             style={{ height: ".5px" }}
