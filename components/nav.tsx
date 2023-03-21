@@ -23,8 +23,11 @@ const Nav = (props: Props) => {
         <Link href="/creatives" className="hidden sm:block">
           Creatives
         </Link>
-        <a href="#" className="cursor-not-allowed">
-          Blog
+        <a
+          href="https://github.com/anup-a/anup-a/blob/main/resume.pdf"
+          target="blank"
+        >
+          Resume
         </a>
         <a href="/#footer">Contact</a>
       </div>
