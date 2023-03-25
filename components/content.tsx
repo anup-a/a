@@ -12,10 +12,12 @@ const Content = (props: Props) => {
   }, []);
 
   return (
-    <section className={`flex flex-col items-center ${spectral.className}`}>
+    <section
+      className={`flex flex-col items-start sm:items-center ${spectral.className}`}
+    >
       <div data-aos="zoom-in" data-aos-duration="1000">
         <div className="lines"></div>
-        <div className="mr-2 text-5xl transition-colors duration-200 ease-in text-slate-700 dark:text-slate-300">
+        <div className="mr-2 text-3xl transition-colors duration-200 ease-in sm:text-5xl text-slate-700 dark:text-slate-300">
           Hey! I'm <span className="">Anup</span> 👋🏻
         </div>
       </div>

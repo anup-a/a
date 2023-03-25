@@ -11,7 +11,7 @@ type Props = {
 const Nav = (props: Props) => {
   return (
     <nav
-      className={`flex items-center justify-between px-8 py-2 mt-4 ${
+      className={`flex items-center justify-between sm:px-8 px-2 py-2 mt-4 ${
         spectral.className
       } ${
         props.enableBackground
@@ -50,7 +50,7 @@ const Nav = (props: Props) => {
           Resume
         </Link>
         <Link
-          className="hover:bg-[#00000016] transition-all duration-700 py-2 px-4 dark:hover:bg-[#ffffff16] rounded-md focus:outline-none focus:ring-1 focus:ring-slate-700"
+          className="hidden sm:block hover:bg-[#00000016] transition-all duration-700 py-2 px-4 dark:hover:bg-[#ffffff16] rounded-md focus:outline-none focus:ring-1 focus:ring-slate-700"
           href="/#footer"
         >
           Contact

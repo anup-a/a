@@ -12,10 +12,6 @@ const ThemeSwitch = () => {
   if (!mounted) {
     return null;
   }
-  //       <div className="absolute left-0 inline-block w-8 h-8 bg-black rounded-full"></div>
-  {
-    /* <div className="absolute left-0 inline-block w-3 h-8 bg-white"></div> */
-  }
 
   const changeTheme = () => {
     if (theme === "light") {
@@ -33,6 +29,7 @@ const ThemeSwitch = () => {
       aria-label="auto"
       aria-live="polite"
       onClick={changeTheme}
+      style={{ maxWidth: "1.4rem" }}
     >
       <svg
         className="sun-and-moon"
