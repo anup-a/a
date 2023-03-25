@@ -1,22 +1,26 @@
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
-import { Inter } from "next/font/google";
 import Head from "next/head";
+import { inter } from "../utils/fonts";
+import { ThemeProvider } from "next-themes";
 
-const inter = Inter({
-  weight: ["400", "500", "700"],
-  subsets: ["latin"],
-});
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="/favicon.svg" type="image/x-icon" />
         <meta name="theme-color" content="#ffffff" />
       </Head>
-      <main className={inter.className + " scroll-smooth"}>
-        <Component {...pageProps} />
-      </main>
+      <ThemeProvider>
+        <main
+          className={
+            inter.className +
+            "scroll-smooth dark:bg-black transition-colors duration-1000 min-h-screen"
+          }
+        >
+          <Component {...pageProps} />
+        </main>
+      </ThemeProvider>
     </>
   );
 }

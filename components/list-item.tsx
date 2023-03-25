@@ -35,8 +35,10 @@ const ListItem = (props: Props) => {
         className="flex items-center justify-between mt-6 hover:cursor-pointer"
         href={props.link}
       >
-        <h5 className="font-bold text-slate-600 text-md">{props.title}</h5>
-        <p className="mr-2">
+        <h5 className="font-bold text-slate-600 dark:text-slate-200 text-md">
+          {props.title}
+        </h5>
+        <p className="mr-2 dark:text-slate-600">
           <Arrow />
         </p>
       </a>

@@ -24,9 +24,9 @@ export default function IndexPage() {
         style={{ gap: "80px" }}
       >
         <div className="flex flex-col w-full md:w-3/4">
-          <Nav projectsRef={projectsRef} enableBackground={false} />
+          <Nav projectsRef={projectsRef} enableBackground={true} />
           <span
-            className="w-full my-6 bg-slate-500"
+            className="w-full my-6 bg-slate-500 dark:bg-transparent"
             style={{ height: ".5px" }}
           ></span>
         </div>
