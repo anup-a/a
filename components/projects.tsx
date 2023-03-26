@@ -32,6 +32,13 @@ const projects = [
     className: " bg-lime-200",
     link: "https://uxie.io",
   },
+  {
+    title: "SVG.Shapes",
+    subtitle: "100+ Customizable SVGs. No attribution required.",
+    src: "/svgshapes.webp",
+    className: "bg-blue-200",
+    link: "https://svgshapes.in",
+  },
 ];
 
 const Projects = React.forwardRef((props: Props, ref: any) => {
