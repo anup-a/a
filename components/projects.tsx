@@ -23,14 +23,14 @@ const projects = [
     subtitle: "Create pixel perfect image hue variations",
     src: "/tinter.png",
     className: " bg-amber-200",
-    link: "https://tinter.uxie.io",
+    link: "https://tinter.vercel.app",
   },
   {
     title: "Uxie",
     subtitle: "A No code Design suite for developers (Private Beta)",
     src: "/uxie.png",
     className: " bg-lime-200",
-    link: "https://uxie.io",
+    link: "https://github.com/uxie-io",
   },
   {
     title: "SVG.Shapes",
