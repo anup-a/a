@@ -37,7 +37,7 @@ const projects = [
     subtitle: "100+ Customizable SVGs. No attribution required.",
     src: "/svgshapes.webp",
     className: "bg-blue-200",
-    link: "https://svgshapes.in",
+    link: "https://svg-shapes.vercel.app",
   },
 ];
 
